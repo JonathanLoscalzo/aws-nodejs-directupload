@@ -44,8 +44,6 @@ router.get('/sign-s3', (req, res) => {
 
 router.post('/save-details', (req, res) => {
     // TODO: Read POSTed form data and do something useful
-    debugger;
-    console.log(req, res);
 });
 
 module.exports = router;
